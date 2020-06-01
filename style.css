@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bottom_div {
+  /* display: block; */
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  justify-content: center;
+}
+
+.save_button {
+width: 100%;
+height: 10%;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  white-space: nowrap;
+  overflow-x: scroll;
+
+  width: 100%;
+  height: 10%;
+
+}
